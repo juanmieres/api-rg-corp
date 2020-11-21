@@ -1,0 +1,32 @@
+# django
+*.log
+*.pot
+*.pyc
+*.sql
+settings.py
+/output/
+output/
+public/
+# sqlite
+*.sqlite
+*.sqlite3
+src/db.sqlite3
+
+# non-source
+/bin/
+/include/
+/lib/
+env/
+virtualenv/
+local/
+local
+.vscode/
+
+# mac
+.Python
+.DS_Store
+
+# migraciones
+# **/migrations/
+
+# static/tmp/
