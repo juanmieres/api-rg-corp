@@ -12,6 +12,7 @@ source .env/bin/active
 Install the project requirements (within the virtualenv) and migrate to create the database.
 ```
 pip install -r requirements.txt
+python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -151,3 +152,8 @@ Example
 
 {"msg": "Scraper deleted"}
 ```
+
+## Documentation
+
+* POSTMAN: [link](https://documenter.getpostman.com/view/9854295/TVev44bk)
+
